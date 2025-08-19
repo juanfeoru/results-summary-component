@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | Results summary component</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <article class="result-summary">
+      <section class="result-summary__content">
+        <h2 class="result-summary__title">Your Result</h2>
+
+        <div class="result-summary__score">
+          <span class="result-summary__score-number">76</span>
+          <span class="result-summary__score-total-one">of 100</span>
+        </div>
+
+        <p class="result-summary__feedback">Great</p>
+
+        <p class="result-summary__description">
+          You scored higher than 65% of the people who have taken these tests.
+        </p>
+      </section>
+
+      <section class="result-summary__stats">
+        <h2 class="result-summary__title-summary">Summary</h2>
+
+        <div class="result-summary__item result-summary__item--reaction">
+          <img
+            src="./assets/images/icon-reaction.svg"
+            alt="Reaction icon"
+            class="result-summary__icon"
+            width="20"
+            height="20"
+          />
+          <h2
+            class="result-summary__category result-summary__category-reaction"
+          >
+            Reaction
+          </h2>
+          <span class="result-summary__data"
+            >80 <span class="result-summary__score-total">/ 100</span></span
+          >
+        </div>
+
+        <div class="result-summary__item result-summary__item--memory">
+          <img
+            src="./assets/images/icon-memory.svg"
+            alt="Memory icon"
+            class="result-summary__icon"
+            width="20"
+            height="20"
+          />
+          <h2 class="result-summary__category result-summary__category-memory">
+            Memory
+          </h2>
+          <span class="result-summary__data"
+            >92 <span class="result-summary__score-total"> / 100</span></span
+          >
+        </div>
+
+        <div class="result-summary__item result-summary__item--verbal">
+          <img
+            src="./assets/images/icon-verbal.svg"
+            alt="Verbal icon"
+            class="result-summary__icon"
+            width="20"
+            height="20"
+          />
+          <h2 class="result-summary__category result-summary__category-verbal">
+            Verbal
+          </h2>
+          <span class="result-summary__data"
+            >61 <span class="result-summary__score-total"> / 100</span></span
+          >
+        </div>
+
+        <div class="result-summary__item result-summary__item--visual">
+          <img
+            src="./assets/images/icon-visual.svg"
+            alt="Visual icon"
+            class="result-summary__icon"
+            width="20"
+            height="20"
+          />
+          <h2 class="result-summary__category result-summary__category-visual">
+            Visual
+          </h2>
+          <span class="result-summary__data"
+            >72 <span class="result-summary__score-total"> / 100</span></span
+          >
+        </div>
+
+        <button class="result-summary__button">Continue</button>
+      </section>
+    </article>
+  </body>
+</html>
