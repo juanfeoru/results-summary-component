@@ -29,8 +29,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Frontend Mentor Solution](https://www.frontendmentor.io/solutions/)
-- Live Site URL: [Live Demo](https://your-live-site-url.com)
+- Solution URL: [Frontend Mentor Solution](https://www.frontendmentor.io/solutions/responsive-results-summary-component-using-semantic-html-bem-and-css-YNVu9mveZg)
+- Live Site URL: [Live Demo](https://juanfeoru.github.io/results-summary-component/)
 
 ## My process
 
